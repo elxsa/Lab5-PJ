@@ -10,8 +10,6 @@ Clasa "ObjectMapper" furnizează prin metodele sale funcționalitatea de bază p
 
 Metoda assertEquals() are doi parametri, valoarea așteptată şi al doilea valoarea returnată de funcția apelată (în exemplul considerat de funcţia suma()). La utilizarea acestei metode testul trece dacă metoda returnează valoarea așteptată. La utilizarea metodelor assertTrue() testul trece dacă condiția specificată este adevărată, iar la utilizarea metodele assertFalse() testul trece dacă condiția specificată este falsă.
 
-Sure, here is the English translation of the text:
-
 EN: Java Programming - Lab 5, brief description:
 
 1. Consider the file persoane.json with its corresponding content. The following program will retrieve data from the file, load it into a List collection, and display it. The collection will be augmented with one more person and then saved to a file. The classes of objects that will be saved in JSON format adhere to the POJO (Plain Old Java Object) model. According to the POJO model, classes must have private member variables, getters and setters, and a no-argument constructor.
