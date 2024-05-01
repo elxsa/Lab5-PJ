@@ -14,8 +14,8 @@ Sure, here is the English translation of the text:
 
 EN: Java Programming - Lab 5, brief description:
 
-Consider the file persoane.json with its corresponding content. The following program will retrieve data from the file, load it into a List collection, and display it. The collection will be augmented with one more person and then saved to a file. The classes of objects that will be saved in JSON format adhere to the POJO (Plain Old Java Object) model. According to the POJO model, classes must have private member variables, getters and setters, and a no-argument constructor.
+1. Consider the file persoane.json with its corresponding content. The following program will retrieve data from the file, load it into a List collection, and display it. The collection will be augmented with one more person and then saved to a file. The classes of objects that will be saved in JSON format adhere to the POJO (Plain Old Java Object) model. According to the POJO model, classes must have private member variables, getters and setters, and a no-argument constructor.
 The "ObjectMapper" class provides basic functionality for writing and reading JSON files through its methods, as well as support for conversions. Thus, the writeValue() method is used to write a list of people to a JSON file, and the readValue() method is used to read data from JSON into a list of people.
 
-Above the methods that perform tests, the @Test annotation is placed. The class exemplul2.Calculator has been imported, to enable writing test units for its methods.
+2. Above the methods that perform tests, the @Test annotation is placed. The class exemplul2.Calculator has been imported, to enable writing test units for its methods.
 The assertEquals() method has two parameters, the expected value and the second is the value returned by the function called (in the considered example by the function suma()). When using this method, the test passes if the method returns the expected value. When using the assertTrue() methods, the test passes if the specified condition is true, and when using the assertFalse() methods, the test passes if the specified condition is false.
